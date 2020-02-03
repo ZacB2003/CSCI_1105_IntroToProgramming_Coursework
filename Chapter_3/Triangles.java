@@ -20,9 +20,9 @@ class Triangles {
 		
 		double p = a+b+c;
 		
-		if (a+b > c) {
-			if (b+c > c) {
-				if (a+c > b) {
+		if (a+b >= c) {
+			if (b+c >= a) {
+				if (a+c >= b) {
 					System.out.println("The perimeter is: " + p);
 				}
 			}
