@@ -20,11 +20,10 @@ class Triangles {
 		
 		double p = a+b+c;
 		
-		if (a+b > c && b+c > a && a+c > b){
-			System.out.println("The perimeter is: " + p);
-				}
-			}
-		} else {
+		if (a+b > c && b+c > a && a+c > b) {
+					System.out.println("The perimeter is: " + p);
+				} 
+		else {
 			System.out.println("Triangle is invalid");
 		}
 	}
